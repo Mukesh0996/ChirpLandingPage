@@ -277,6 +277,7 @@ ul a {
     color: #000000;
     margin-bottom: 2rem;
 }
+
 .customers_feedbacks {
     display: flex;
     flex-direction: column;
@@ -298,7 +299,7 @@ ul a {
     margin-bottom: 1rem;
 }
 
-.customer-avatar > * {
+.customer-avatar>* {
     float: left;
 }
 
@@ -326,7 +327,7 @@ ul a {
     justify-self: flex-end
 }
 
- .customer_feedback-footer {
+.customer_feedback-footer {
     padding: .7rem 0;
     width: 100%;
     height: 36px;
@@ -337,12 +338,14 @@ ul a {
     align-items: center;
     float: left;
 }
-.customer_feedback-footer_likes div{
+
+.customer_feedback-footer_likes div {
     margin-left: .5rem;
     font-weight: normal;
     font-size: 14px;
     color: #737373;
 }
+
 .customer_feedback-footer_date {
     float: right;
     color: #737373;
@@ -350,7 +353,79 @@ ul a {
 
 .pricing {
     background: #fff;
+    padding: 3rem 0;
 }
+
+.pricing_main {
+    width: 69%;
+}
+
+
+.pricing_main > * {
+    text-align: center;
+}
+
+.pricing_main-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+.pricing_main-description {
+    color: #737373;
+    font-size: 18px;
+}
+.pricing_details {
+width: 100%;
+background: #FBF8F3;
+padding: 4.01rem 2.549rem;
+color: #737373;
+margin-top: 5.06rem;
+border-radius: 10px;
+border: 1px solid #FFAD23;
+}
+
+.price {
+    color: #000000;
+    font-size: 27px;
+    font-weight: bold;
+}
+.pricing_price {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+hr {
+  border: 0.5px solid #CECECE;
+
+}
+
+.pricing_benefits {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pricing_benefit {
+    align-self: flex-start;
+    margin: 0.79rem 0;
+
+}
+
+.pricing_benefit > * {
+    text-align: left;
+}
+.pricing_benefit svg {
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+.pricing_details .twitter {
+    margin-top: 1.5rem;
+    width: 100%;
+    background: #00ACEE;
+}
+
 
 /* for tablets */
 @media (min-width: 48rem) {
@@ -388,10 +463,11 @@ ul a {
         margin: 0;
     }
 
+
 }
 
 /* for laptops and big screen */
-@media (min-width: 62rem) {
+@media (min-width: 64rem) {
 
     .hero {
         display: flex;
@@ -447,4 +523,9 @@ ul a {
     .feature {
         width: 48.3%;
     }
+
+.pricing_main {
+    width: 37.431%;
+ 
+}
 }
